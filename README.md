@@ -19,23 +19,29 @@ npm i myanmar-lorem-ipsum
 
 ###### Supported Languages
 
-1. OFFICE - ရုံးစာ
-2. GOV - အစိုးရနှင့်သက်ဆိုင်သော
-3. PALI - ပါဠိ
-4. SHAN - သျှမ်းစာ (ရှမ်း)
-5. KAREN - ကရင်စာ
+1. Mon - မွန်
+2. Araken - အာရကန်
+3. Pali - ပါဠိ
+4. Shan - သျှမ်း
+5. Karen - ကရင်
+6. Myanmar - မြန်မာ
 
 #### Quick Guide
 
 Generating Dummey Text (resource name, paragraph)
-```java
-String result = DummyTextGenerator.get(Resources.SHAN, 1);
+
+```typescript
+import {generate} from "./dummyText";
+import {Resources} from "./resources";
+
+generate(Resources.SHAN, 4);
 ```
 
 With Custorm raw data (string, paragraph)
-```java
-DummyText dummyText = new DummyText();
-dummyText.generate("မြန်မာစာ ဖော်ပြမှု", 0);
+```typescript
+import { generate } from "myanmar-lorem-ipsum";
+
+customGenerate("မြန်မာကိုယ်စားလှယ်ကိစ္စ အမေရိကန်နဲ့တရုတ်တို့ အငြင်းအခုန် မဖြစ်အောင်ရှောင်", 3);
 ```
 
 
