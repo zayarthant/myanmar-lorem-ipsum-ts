@@ -1,13 +1,15 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "target": "ES2015",
-      "declaration": true,
-      "outDir": "./dist",
-      "main": "dist/DummyText.js",
-      "types": "dist/DummyText.d.ts"
-    },
-    "include": [
-      "src/**/*"
-    ]
-  }
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "declaration": true,
+    "outDir": "./dist",
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+}

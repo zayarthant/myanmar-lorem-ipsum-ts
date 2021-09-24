@@ -1,0 +1,25 @@
+{
+  "name": "myanmar-lorem-ipsum",
+  "version": "1.0.1",
+  "description": "Myanmar Languages Dummy Text Generator",
+  "main": "dist/DummyText.js",
+  "types": "dist/DummyText.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "text",
+    "dummy",
+    "burmese"
+  ],
+  "author": "Zayar Thant",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.9.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
