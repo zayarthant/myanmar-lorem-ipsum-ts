@@ -13,7 +13,7 @@ Contributors [Phyo Zaw Tun](https://github.com/phyozawtun "Phyo Zaw Tun") and [Z
 အကြုံပေးလိုသည်နှင့် Bug များတွေ့ရှိပါက [Issue](https://github.com/zayarthant/myanmar-lorem-ipsum/issues "Issue") တင်ပေးပါ။
 
 ###### Installation
-```xml
+```shell
 npm i myanmar-lorem-ipsum
 ```
 
