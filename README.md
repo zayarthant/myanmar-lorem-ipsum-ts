@@ -32,7 +32,7 @@ Generating Dummey Text (resource name, paragraph)
 
 ```typescript
 import {generate} from "./dummyText";
-import {Resources} from "./resources";
+import {Resources} from "./src/resources";
 
 generate(Resources.SHAN, 4);
 ```

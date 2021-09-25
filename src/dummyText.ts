@@ -1,6 +1,6 @@
 import {createDummyText} from './dummyTextEngine';
 import {segment} from './syllabusSegmentation';
-import {read, Resources} from "../resources/resources";
+import {read, Resources} from "./resources";
 
 function customGenerate(raw: string, count: number): string {
     raw = raw.replace("[။၊ \\s]", "");

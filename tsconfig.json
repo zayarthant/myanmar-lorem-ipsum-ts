@@ -4,10 +4,11 @@
     "target": "ES2015",
     "declaration": true,
     "outDir": "./dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": [
-    "src",
-    "resources"
+    "src"
   ],
   "exclude": [
     "node_modules",

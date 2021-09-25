@@ -1,11 +1,12 @@
 {
   "name": "myanmar-lorem-ipsum",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Myanmar Languages Dummy Text Generator",
   "main": "dist/dummyText.js",
   "types": "dist/dummyText.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "copy": "cp src/resources dist/"
   },
   "repository": {
     "type": "git",
